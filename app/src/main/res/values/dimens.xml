@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="timer_text_size_xsmall">30sp</dimen>    <!-- Extra small -->
+    <dimen name="timer_text_size_small">50sp</dimen>     <!-- Small -->
+    <dimen name="timer_text_size_medium">70sp</dimen>    <!-- Medium -->
+    <dimen name="timer_text_size_large">80sp</dimen>     <!-- Large -->
+    <dimen name="timer_text_size_xlarge">110sp</dimen>    <!-- Extra large -->
+    <dimen name="timer_text_size_xxlarge">150sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="fragment_horizontal_margin">16dp</dimen>
+    <dimen name="fragment_vertical_margin">16dp</dimen>   <!-- Extra extra large -->
+</resources>

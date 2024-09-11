@@ -1,0 +1,23 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Outer shape -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent"/>
+            <stroke
+                android:width="2dp"
+                android:color="#545454" /> <!-- Border color -->
+            <corners android:radius="0dp"/>
+        </shape>
+    </item>
+    <!-- Inner shape -->
+    <item
+        android:left="2dp"
+        android:top="2dp"
+        android:right="2dp"
+        android:bottom="2dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#D9D9D9" />
+            <corners android:radius="0dp" />
+        </shape>
+    </item>
+</layer-list>

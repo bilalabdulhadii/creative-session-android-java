@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/popup_background"
+    android:padding="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/sessions_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginEnd="5dp"
+            android:text="2/8"
+            android:textColor="#3F51B5"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/taskCreatedAt_TextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginEnd="5dp"
+            android:text="12.08.2024 - 00:25"
+            android:textColor="#5B5B5B"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/taskTitle_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textSize="18sp"
+        android:minHeight="48dp"
+        android:autofillHints="Task title"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:text="#3 New Task " />
+
+    <EditText
+        android:id="@+id/desiredSessions_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="24dp"
+        android:minHeight="48dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Desired session number"
+        android:inputType="numberDecimal"
+        android:gravity="center"
+        android:text="8"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/removeTask_ImgBtn"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="Remove Task"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/trash_100" />
+
+        <ImageButton
+            android:id="@+id/editTask_ImgBtn"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="Edit Task"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/save_100" />
+    </LinearLayout>
+
+</LinearLayout>
