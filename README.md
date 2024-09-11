@@ -58,5 +58,5 @@ If you liked using this app or it has helped you in any way, I'd like you send m
 ---
 > WebSite [@bilalabdulhadi.com](https://bilalabdulhadi.com/) &nbsp;&middot;&nbsp;
 > GitHub [@bilalabdulhadii](https://github.com/bilalabdulhadii) &nbsp;&middot;&nbsp;
-> Linkedin [@bilal-abdulhadi](https://www.linkedin.com/in/bilalabdulhadii/)
+> Linkedin [@bilalabdulhadii](https://www.linkedin.com/in/bilalabdulhadii/)
 
